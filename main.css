@@ -1,0 +1,27 @@
+.subsection-item {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 0.1in;
+  margin-bottom: 0.1in;
+}
+
+.honor-names {
+  display: flex;
+  justify-content: end;
+}
+
+ul {
+  margin-left: 0.3in;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 560px) {
+  .subsection-item {
+    flex-direction: column;
+    align-items: center;
+  }
+}
