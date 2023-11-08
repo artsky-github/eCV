@@ -17,6 +17,14 @@ ul {
 html {
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+
+body {
+  padding: 25px;
+  box-shadow: 10px 10px 25px gray;
+  background-color: white;
 }
 
 @media only screen and (max-width: 560px) {
